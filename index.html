@@ -594,6 +594,49 @@
             <use href="./images/icons.svg#close"></use>
           </svg>
         </button>
+
+        <form class="form-modal">
+          <div class="registr-form-group" role="group">
+            <span class="modal-title">Залиште свої дані, ми вам передзвонимо</span>
+
+            <label class="form-modal-label">
+              <span class="label-title">Ім'я</span>
+              <input class="form-modal-field" type="text" name="user-mane" />
+              <svg class="form-icon" width="18" height="18">
+                <use href="./images/icons.svg#person-modal"></use>
+              </svg>
+            </label>
+            <label class="form-modal-label">
+              <span class="label-title">Телефон</span>
+              <input class="form-modal-field" type="tel" name="user-tel" />
+              <svg class="form-icon" width="18" height="18">
+                <use href="./images/icons.svg#phone-modal"></use>
+              </svg>
+            </label>
+            <label class="form-modal-label">
+              <span class="label-title">Пошта</span>
+              <input class="form-modal-field" type="email" name="user-email" />
+              <svg class="form-icon" width="18" height="18">
+                <use href="./images/icons.svg#email-modal"></use>
+              </svg>
+            </label>
+            <label class="form-modal-textarea">
+              <span class="label-title">Коментар</span>
+              <textarea name="user-comment" rows="10" placeholder="Введіть текст"></textarea>
+            </label>
+          </div>
+
+          <label class="form-modal-checkbox">
+            <input class="checkbox-input visually-hidden" type="checkbox" name="license" />
+            <svg class="checkbox-icon" width="16" height="15">
+              <use class="checkbox-icon-uncheck" href="./images/icons.svg#uncheck-icon"></use>
+              <use class="checkbox-icon-check" href="./images/icons.svg#check-icon"></use>
+            </svg>
+            <span class="form-agreement">Погоджуюся з розсилкою та приймаю&nbsp</span>
+            <a class="link-license" href="">Умови договору</a>
+          </label>
+          <button class="form-modal-btn" type="submit">Відправити</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
